@@ -1,0 +1,6 @@
+*.swp
+vendor
+.bundle
+.idea/*
+.venv
+.reviewboardrc
