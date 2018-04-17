@@ -1,5 +1,5 @@
-FROM nginx:1-alpine
-MAINTAINER Talend DevOps team
+FROM nginx:1.13.12-alpine
+MAINTAINER Talend SRE team
 
 #Minimal nginx to absorb incorrect paths from front
 RUN rm -f /etc/nginx/conf.d/default.conf
