@@ -1,4 +1,4 @@
-FROM nginx:1-alpine
+FROM nginx:1.13.12-alpine
 MAINTAINER Talend DevOps team
 
 #Minimal nginx to absorb incorrect paths from front
