@@ -1,4 +1,4 @@
-FROM nginx:1.13.12-alpine
+FROM nginx:1.25-alpine
 MAINTAINER Talend SRE team
 
 #Minimal nginx to absorb incorrect paths from front
